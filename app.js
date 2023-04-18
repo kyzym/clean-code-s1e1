@@ -149,7 +149,6 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   //Bind deleteTask to delete button.
   deleteButton.onclick = deleteTask;
   //Bind taskCompleted to checkBoxEventHandler.
-  console.log(checkBox);
   checkBox.onchange = checkBoxEventHandler;
 };
 
