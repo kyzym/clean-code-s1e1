@@ -4,11 +4,13 @@ ul {
   padding: 0;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -45,11 +47,9 @@ button {
 }
 
 @media (max-width: 768px) {
-
   .info-section {
     text-align: center;
   }
-
 }
 
 .main-element {
@@ -69,7 +69,8 @@ button {
 }
 
 /* Heading */
-.title, .new-task-label {
+.title,
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
